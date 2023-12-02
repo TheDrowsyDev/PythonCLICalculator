@@ -32,7 +32,7 @@ def subtract(num1: float, num2: float) -> float:
        :param num1: float, The number to subtract from
        :param num2: float, The number to subtract
 
-       :return remainder: float, The difference of the supplied arguments
+       :return difference: float, The difference of the supplied arguments
 
        Example Usage:
        ```
