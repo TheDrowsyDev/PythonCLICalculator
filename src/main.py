@@ -81,7 +81,9 @@ def divide(num1: float, num2: float) -> (float | str):
     return quotient
 
 parser = ArgumentParser()
-parser.add_argument("operation", type=str, choices=["add", "subtract", "multiply", "divide"], help="The operation to run on the given arguments.")
+parser.add_argument("operation", type=str, 
+                    choices=["add", "subtract", "multiply", "divide"], 
+                    help="The operation to run on the given arguments.")
 parser.add_argument("num_one", type=float, help="The first number.")
 parser.add_argument("num_two", type=float, help="The second number.")
 
